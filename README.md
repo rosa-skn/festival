@@ -1,6 +1,6 @@
 # Animated Landing Page
 
-An animated landing page for a space exploration company, built using HTML, CSS, and JavaScript.
+An animated landing page for a space exploration company, built using HTML, CSS, JavaScript, and GSAP (GreenSock Animation Platform).
 
 ## Description
 
@@ -11,6 +11,7 @@ This project is an animated landing page using HTML, CSS, and JavaScript. It fea
 - **Moving Cursor:** The page includes a moving cursor to add dynamism and visual interest.
 - **Interactive Elements:** Interactive elements are incorporated to engage users and encourage exploration of the content.
 - **Responsive Design:** The landing page is designed to be responsive, ensuring compatibility across various devices and screen sizes.
+- **GSAP Animations:** GSAP is utilized for advanced animations, providing smooth transitions and enhancing user experience.
 
 ## Website
 
