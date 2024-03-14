@@ -4,7 +4,7 @@ An animated landing page for a space exploration company, built using HTML, CSS,
 
 ## Description
 
-This project is an animated landing page using HTML, CSS, and JavaScript. It features a moving cursor and interactive elements to create an engaging user experience.
+This project is an animated landing page using HTML, CSS, JavaScript and GSAP. It features a moving cursor and interactive elements to create an engaging user experience.
 
 ## Features
 
