@@ -14,4 +14,4 @@ This project is an animated landing page using HTML, CSS, and JavaScript. It fea
 
 ## Website
 
-You can view the live website [here](https://yourwebsite.com](https://suhasjadhav264.github.io/Cosmic-Ventures/)https://suhasjadhav264.github.io/Cosmic-Ventures/).
+You can view the live website [here](https://suhasjadhav264.github.io/Cosmic-Ventures/).
