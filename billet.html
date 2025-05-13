@@ -1,5 +1,147 @@
-<html>
-    <head>
-        <img src="assets/Futuristic UnityUnite Ticket Design.png">
-    </head>
-</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Billeterie</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #39ff14;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 15px #39ff14;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ticket {
+      border: 2px solid #39ff14;
+      padding: 40px 30px;
+      width: 280px;
+      background-color: #111;
+      text-align: center;
+      box-shadow: 0 0 25px #39ff14;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .ticket:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 35px #39ff14;
+    }
+
+    .ticket h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .ticket p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+
+    .ticket button {
+      background-color: #39ff14;
+      border: none;
+      color: #000;
+      padding: 12px 24px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+
+    .ticket button:hover {
+      background-color: #2ecc71;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      border-top: 1px solid #39ff14;
+      background-color: #111;
+    }
+
+    @media (max-width: 600px) {
+      .ticket {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Billeterie</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="ticket">
+        <h2>Pass 1 jour</h2>
+        <p>Profitez d’une journée complète de musique, d’art et d’émerveillement.</p>
+        <p><strong>€49</strong></p>
+        <button>Acheter</button>
+      </div>
+
+      <div class="ticket">
+        <h2>Pass 2 jour</h2>
+        <p>Vivez l'expérience complète de Terra Mirabilis !</p>
+        <p><strong>€89</strong></p>
+        <button>Acheter</button>
+      </div>
+
+      <div class="ticket">
+        <h2>Pass Etudiant</h2>
+        <p>Des offres réserver aux étudiant</p>
+        <p><strong>€89</strong></p>
+        <button>Acheter</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Terra Mirabilis Festival. All rights reserved.
+  </footer>
+
+</body>
+</html>

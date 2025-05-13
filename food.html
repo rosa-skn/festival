@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Trucks</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #00ffae;
+      text-shadow: 0 0 10px #00ffae;
+      margin-bottom: 40px;
+    }
+
+    .food {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .food-item {
+      width: 100%;
+      background-color: #111;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 15px #00ffae55;
+      border: 2px solid #00ffae44;
+    }
+
+    .food-item img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .food-item p {
+      padding: 20px;
+      font-size: 1.5em;
+      color: #00ffae;
+      text-align: center;
+      text-shadow: 0 0 5px #00ffae;
+      background-color: #000;
+    }
+
+    @media (max-width: 768px) {
+      .food-item img {
+        height: 250px;
+      }
+
+      .food-item p {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nos Partenariats</h1>
+
+  <div class="food">
+    <div class="food-item">
+      <img src="assets/amaterasse.jpeg" alt="Amaterasse">
+      <p>Amaterasse</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/bubble.jpg" alt="Bubble">
+      <p>Bubble lovers</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/creme.jpg" alt="Crème Délice">
+      <p>Crème Délice</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/gaia.jpg" alt="Gaïa">
+      <p>Gaïa Nature</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/caves.jpg" alt="Les Caves">
+      <p>Les Caves du Goût</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/laitieres.jpg" alt="Douce Laitière">
+      <p>Douce Laitière</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/laurent.jpg" alt="Chez Laurent">
+      <p>Chez Laurent</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/Les falafels.png" alt="Les Falafels">
+      <p>Les Falafels Magiques</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/Merveilleux .png" alt="Le Merveilleux">
+      <p>Le Merveilleux</p>
+    </div>
+    <div class="food-item">
+      <img src="assets/realmix.jpg" alt="Realmix">
+      <p>Realmix</p>
+    </div>
+  </div>
+
+</body>
+</html>
