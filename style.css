@@ -67,6 +67,7 @@ body {
   z-index: 99;
   border-bottom: 1px solid #36d421(0, 255, 170, 0.3);
   box-shadow: 0 0 20px #36d421(0, 255, 170, 0.1);
+  justify-content: center;
 }
 
 #nav h4 {
@@ -103,7 +104,7 @@ body {
 
 
 #nav img {
-  height: 100px;
+  height: 130px;
 }
 
 #nav h4 {
@@ -125,7 +126,7 @@ video {
 }
 
 #page1 {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: relative;
   display: flex;
